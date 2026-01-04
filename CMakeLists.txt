@@ -8,7 +8,6 @@ enable_testing()
 
 include(${CMAKE_SOURCE_DIR}/cmake/linkDll.cmake)
 
-add_subdirectory(app)
 add_subdirectory(benchmark)
 
 find_package(spdlog REQUIRED)
